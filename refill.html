@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartGas | Book Refill</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-card">
+            <h2>Book a <span>Refill</span></h2>
+            <p>Your Consumer ID: <strong>SG-88210</strong></p>
+            
+            <form>
+                <label>Cylinder Type</label>
+                <select>
+                    <option>Domestic (14.2 kg) - ₹850</option>
+                    <option>Commercial (19 kg) - ₹1,620</option>
+                </select>
+
+                <label>Delivery Slot</label>
+                <div class="slots">
+                    <label><input type="radio" name="slot" checked> Morning (8AM-12PM)</label>
+                    <label><input type="radio" name="slot"> Afternoon (12PM-4PM)</label>
+                </div>
+
+                <div class="price-summary">
+                    <div class="row"><span>Base Price</span><span>₹850.00</span></div>
+                    <div class="row"><span>Delivery Fee</span><span>₹25.00</span></div>
+                    <div class="row total"><span>Total Payable</span><span>₹875.00</span></div>
+                </div>
+
+                <button class="btn-primary">Confirm & Pay</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

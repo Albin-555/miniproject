@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SmartGas | New Connection</title>
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <div class="form-wrapper">
+        <div class="form-card wide">
+            <h2>New Connection <span>Request</span></h2>
+            <form class="grid-form">
+                <div class="col">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="As per Aadhaar" required>
+                    
+                    <label>Aadhar Number</label>
+                    <input type="text" placeholder="Eg-000 000 000" required>
+
+                    <label>Address</label>
+                    <textarea placeholder="Complete Delivery Address" required></textarea>
+                </div>
+                <div class="col">
+                    <label>Connection Type</label>
+                    <select>
+                        <option>Single Bottle (SBC)</option>
+                        <option>Double Bottle (DBC)</option>
+                    </select>
+
+                    <label>ID Proof (PDF/JPG)</label>
+                    <input type="file" required>
+                    <label>Ration Card (PDF/JPG)</label>
+                    <input type="file" required>
+                    <label>Passbook (PDF/JPG)</label>
+                    <input type="file" required>
+                </div>
+                <button class="btn-primary full-width">Submit Application</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

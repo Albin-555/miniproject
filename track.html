@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartGas | Track Your Order</title>
+    <link rel="stylesheet" href="track.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+         <div class="logo">
+                <span>SmartGas</span> 
+            </div>
+    </nav>
+
+    <div class="container">
+        <section class="search-section">
+            <h1>Track Your <span>Cylinder</span></h1>
+            <p>Enter your Booking ID to see real-time delivery status.</p>
+            <div class="search-box">
+                <input type="text" placeholder="e.g. BK-99214" id="orderID">
+                <button class="btn-primary">Track Now</button>
+            </div>
+        </section>
+
+        <div class="tracker-card">
+            <div class="card-header">
+                <div>
+                    <span class="order-label">Booking ID:</span>
+                    <span class="order-value">#BK-99214</span>
+                </div>
+                <div class="status-badge">Out for Delivery</div>
+            </div>
+
+            
+            <div class="progress-container">
+                <ul class="progressbar">
+                    <li class="active">Booking Placed</li>
+                    <li class="active">Confirmed</li>
+                    <li class="active pulse">Out for Delivery</li>
+                    <li>Delivered</li>
+                </ul>
+            </div>
+
+            <div class="track-details">
+                <div class="detail-box">
+                    <h4>Delivery Agent</h4>
+                    <p><i class="fa-solid fa-user"></i> Rahul Kumar</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                </div>
+                <div class="detail-box">
+                    <h4>Estimated Arrival</h4>
+                    <p><i class="fa-solid fa-clock"></i> 25 - 30 Minutes</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Near Sector 4, Park</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 SmartGas | Secure Logistics System</p>
+    </footer>
+
+</body>
+</html>
