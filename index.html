@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartGas | Home</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" class="href">
 </head>
 <body>
     <header>
@@ -17,29 +19,32 @@
                 <a class="active" href="#home">HOME</a>
                 <a href="#about">ABOUT</a>
                 <a href="#safety-tips">SAFETY TIPS</a>
-                <a href="#track-order">TRACK ORDER</a>
+                <a href="track.html">TRACK ORDER</a>
             </div>
             <div class="reg-log-btn">
-                <button class="log">Login</button>
-                <button class="reg">Register</button>
+                <a href="log.html" class="log">Login</a>
+                <a href="reg.html" class="reg">Register</a>
             </div>
         </div>
     </header>
     <section>
        <div id="home" class="main">
         <div class="heading">
-        <h1>Cooking Fuel,<span>Just a Click<br> Away. </span></h1>
-        <a>Book your LPG cylinder in seconds, track real-time delivery, and manage your kitchen fuel smarter than ever.</a>
+        <div>  
+            <h1>Cooking Fuel,<span>Just a Click <br> Away. </span></h1>   
+            <a>Book your LPG cylinder in seconds, track real-time delivery, and manage your kitchen fuel smarter than ever.</a>
+        </div> 
         <div class="booking-btn">
-            <button class="btn-1">Book Refill Now</button>
-            <button class="btn-2">New Connection</button>
+            <a href="refill.html" class="btn-1">Book Refill Now</a>
+            <a href="new_con.html" class="btn-2">New Connection</a>
         </div>
         </div>
             <div class="image">
             <img src="images/gas1.jfif">
-        </div>       
+        </div>  
        </div>
-       <div class="live-price">
+       <div>
+        <div class="live-price">
             <div>
                 <a class="pulse-dot"></a>
                 <a >Live price</a>
@@ -51,16 +56,19 @@
               <a>Commercial  (19kg): ₹1,620.00</a>
             </div>
             <div>
-                <a href="#check">Check Subsidy History</a>
+                <a class="ckbtn" id="about" href="subsidy.html">Check Subsidy History</a>
             </div>         
-        </div>
-        <div id="about" class="content">
+        </div>  
+       </div>
+
+        <div class="content">
             <div  class="abt">
                 <h2>Why SmartGas?</h2>
             </div>
             <div class="abt-1">   
                 <a>Bringing transparency and safety to your LPG distribution.</a>
-            </div> 
+            </div>
+
             <div class="cards">
             <div class="grd">
                 <h3>QR Code Verification</h3>
@@ -84,14 +92,13 @@
             </div>
              <div class="grd">
                 <h3>Automated Digital Billing & Subsidy Log</h3>
-                <a>An automated PDF Generation Engine.</a>
+                <a  id="safety-tips" >An automated PDF Generation Engine.</a>
             </div>
            </div>
-            <div id="safety-tips" class="heading-1">
-            <h1>Your Safety is Our<span> Priority </span></h1>
-            </div>
-            <div class="sub">   
-                <p>Guidelines for the safe handling and usage of LPG at home.</p>
+
+            <div class="heading-1">
+              <h1>Your Safety is Our<span> Priority </span></h1>
+              <p>Guidelines for the safe handling and usage of LPG at home.</p>
             </div> 
             <div class="emg">
                 <div class="hd1">
@@ -103,7 +110,6 @@
                 <p>DO turn off the cylinder regulator immediately.</p>
                 <p>DON'T light matches or lighters.</p>
                 </div>
-                <p class="dot">- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</p>
                 <p class="emgno">Call Emergency Helpline:<span>1906</span></p>
             </div>
             <div class="emg1">
@@ -126,6 +132,7 @@
          </div>
         </div>
     </section>
+
     <footer>
         <p>© 2026 SmartGas. Stay Safe, Stay Smart.</p>
     </footer>
